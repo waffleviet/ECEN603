@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : CSELA
+Version: V-2023.12-SP3
+Date   : Sat Mar 21 14:03:11 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32rvt_ss0p95vn40c (File: /usr/synopsys/SAED/SAED32nm_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95vn40c.db)
+
+Number of ports:                          142
+Number of nets:                           226
+Number of cells:                          118
+Number of combinational cells:             91
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         34
+Number of references:                      27
+
+Combinational area:                252.110847
+Buf/Inv area:                       43.458624
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              30.222674
+
+Total cell area:                   252.110847
+Total area:                        282.333521
+1

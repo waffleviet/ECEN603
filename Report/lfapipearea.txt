@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : lfa_pipe
+Version: V-2023.12-SP3
+Date   : Sat Mar 21 15:42:42 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32rvt_ss0p95vn40c (File: /usr/synopsys/SAED/SAED32nm_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95vn40c.db)
+
+Number of ports:                           28
+Number of nets:                           166
+Number of cells:                          147
+Number of combinational cells:            103
+Number of sequential cells:                43
+Number of macros/black boxes:               0
+Number of buf/inv:                         37
+Number of references:                       9
+
+Combinational area:                229.237891
+Buf/Inv area:                       50.066369
+Noncombinational area:             284.641289
+Macro/Black Box area:                0.000000
+Net Interconnect area:              73.884809
+
+Total cell area:                   513.879180
+Total area:                        587.763989
+1

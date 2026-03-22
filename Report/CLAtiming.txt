@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : adder8bit
+Version: V-2023.12-SP3
+Date   : Sat Mar 21 13:50:18 2026
+****************************************
+
+Operating Conditions: ss0p95vn40c   Library: saed32rvt_ss0p95vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: B[0] (input port)
+  Endpoint: S[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder8bit          ForQA                 saed32rvt_ss0p95vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[0] (in)                                0.00       0.00 f
+  U1/Y (INVX1_RVT)                         0.01       0.01 r
+  U2/Y (INVX1_RVT)                         0.02       0.03 f
+  cla1/B[0] (CLA_2)                        0.00       0.03 f
+  cla1/c1/B (CLA1bit_8)                    0.00       0.03 f
+  cla1/c1/U2/Y (XOR2X1_RVT)                0.14       0.17 r
+  cla1/c1/P (CLA1bit_8)                    0.00       0.17 r
+  cla1/P[0] (CLA_2)                        0.00       0.17 r
+  cgu1/P[0] (carryGenerationUnit_2)        0.00       0.17 r
+  cgu1/U4/Y (AO21X1_RVT)                   0.10       0.27 r
+  cgu1/U3/Y (AO21X1_RVT)                   0.10       0.37 r
+  cgu1/U2/Y (AO21X1_RVT)                   0.10       0.47 r
+  cgu1/U1/Y (AO21X1_RVT)                   0.10       0.57 r
+  cgu1/C[3] (carryGenerationUnit_2)        0.00       0.57 r
+  cgu2/Cin (carryGenerationUnit_3)         0.00       0.57 r
+  cgu2/U4/Y (AO21X1_RVT)                   0.10       0.67 r
+  cgu2/U3/Y (AO21X1_RVT)                   0.10       0.76 r
+  cgu2/U2/Y (AO21X1_RVT)                   0.10       0.86 r
+  cgu2/C[2] (carryGenerationUnit_3)        0.00       0.86 r
+  cla2/C[3] (CLA_3)                        0.00       0.86 r
+  cla2/c4/Cin (CLA1bit_9)                  0.00       0.86 r
+  cla2/c4/U1/Y (XOR2X1_RVT)                0.13       0.99 f
+  cla2/c4/S (CLA1bit_9)                    0.00       0.99 f
+  cla2/S[3] (CLA_3)                        0.00       0.99 f
+  S[7] (out)                               0.00       0.99 f
+  data arrival time                                   0.99
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

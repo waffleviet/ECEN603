@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CSELA
+Version: V-2023.12-SP3
+Date   : Sat Mar 21 14:03:11 2026
+****************************************
+
+Operating Conditions: ss0p95vn40c   Library: saed32rvt_ss0p95vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: B[0] (input port)
+  Endpoint: Sum[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CSELA              8000                  saed32rvt_ss0p95vn40c
+  full_adder_15      ForQA                 saed32rvt_ss0p95vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  B[0] (in)                                               0.00       0.00 f
+  U21/Y (INVX1_RVT)                                       0.01       0.01 r
+  U22/Y (INVX1_RVT)                                       0.03       0.04 f
+  B0/b (full_adder_15)                                    0.00       0.04 f
+  B0/U3/Y (XOR2X1_RVT)                                    0.14       0.18 r
+  B0/U2/Y (AO22X1_RVT)                                    0.09       0.27 r
+  B0/carry (full_adder_15)                                0.00       0.27 r
+  gen_adds[1].B1/cin (full_adder_13)                      0.00       0.27 r
+  gen_adds[1].B1/U2/Y (AO22X1_RVT)                        0.08       0.35 r
+  gen_adds[1].B1/carry (full_adder_13)                    0.00       0.35 r
+  gen_adds[2].B1/cin (full_adder_11)                      0.00       0.35 r
+  gen_adds[2].B1/U2/Y (AO22X1_RVT)                        0.08       0.43 r
+  gen_adds[2].B1/carry (full_adder_11)                    0.00       0.43 r
+  gen_adds[3].B1/cin (full_adder_9)                       0.00       0.43 r
+  gen_adds[3].B1/U2/Y (AO22X1_RVT)                        0.08       0.51 r
+  gen_adds[3].B1/carry (full_adder_9)                     0.00       0.51 r
+  gen_adds[4].B1/cin (full_adder_7)                       0.00       0.51 r
+  gen_adds[4].B1/U2/Y (AO22X1_RVT)                        0.08       0.59 r
+  gen_adds[4].B1/carry (full_adder_7)                     0.00       0.59 r
+  gen_adds[5].B1/cin (full_adder_5)                       0.00       0.59 r
+  gen_adds[5].B1/U2/Y (AO22X1_RVT)                        0.08       0.67 r
+  gen_adds[5].B1/carry (full_adder_5)                     0.00       0.67 r
+  gen_adds[6].B1/cin (full_adder_3)                       0.00       0.67 r
+  gen_adds[6].B1/U2/Y (AO22X1_RVT)                        0.08       0.75 r
+  gen_adds[6].B1/carry (full_adder_3)                     0.00       0.75 r
+  gen_adds[7].B1/cin (full_adder_1)                       0.00       0.75 r
+  gen_adds[7].B1/U1/Y (XOR2X1_RVT)                        0.13       0.88 f
+  gen_adds[7].B1/sum (full_adder_1)                       0.00       0.88 f
+  gen_adds[7].C1/D1 (mux_2)                               0.00       0.88 f
+  gen_adds[7].C1/U1/Y (MUX21X1_RVT)                       0.09       0.97 f
+  gen_adds[7].C1/Y (mux_2)                                0.00       0.97 f
+  Sum[7] (out)                                            0.00       0.97 f
+  data arrival time                                                  0.97
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
